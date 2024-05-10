@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Regular */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../../public/assets/font//OpenSans_Condensed/OpenSans_Condensed-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../../public/assets/font/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal; /* Or specify the corresponding font weight */
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../../public/assets/font/OpenSans_Condensed/OpenSans_Condensed-Bold.ttf') format('truetype');
+  font-style: normal; /* Or specify the corresponding font style */
+  font-weight: bold;
+}
+
+/* Semi-Bold */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../../public/assets/font/OpenSans_Condensed/OpenSans_Condensed-SemiBold.ttf') format('truetype');
+  font-style: normal; /* Or specify the corresponding font style */
+  font-weight: 600; /* Adjust as per the weight of your semi-bold font */
+}
+
+/* light-Regular */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../../public/assets/font/OpenSans_Condensed/OpenSans_Condensed-Light.ttf') format('truetype');
+  font-style: normal; /* Or specify the corresponding font style */
+  font-weight: 300; /* Adjust as per the weight of your semi-bold font */
+}
+
+
+/*  OPEN SANS */
+
+/* Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/assets/font/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/assets/font/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300; /* Or specify the corresponding font weight */
+}
+
+
+/* Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/assets/font/OpenSans/OpenSans-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal; /* Or specify the corresponding font weight */
+}
+
+
+/* Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/assets/font/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-style: normal; /* Or specify the corresponding font style */
+  font-weight: bold;
+}
+
+/* Semi-Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/assets/font/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+  font-style: normal; /* Or specify the corresponding font style */
+  font-weight: 600; /* Adjust as per the weight of your semi-bold font */
+}
+
+body {
+  color: #FFFFFF;
+  background: #0E1414;
+  font-family: 'Open Sans';
+}
+
+.condensedVariant {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
